@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 10px;
+}
+
+body {
+    background-color: beige;
+}
+
+.borde {
+    border: 15px solid limegreen;
+    margin-top: 10px;
+    height: 100px;
+    width: 600px;
+}
+
+#ej2-01 .caja {
+    background-color: #f0f0f0;
+    color: #900;
+}
+
+#ej2-02 .hero {
+    background-image: url("../img/superlogo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#ej2-03 .pattern {
+    background-image: url("../img/greca.png");
+    background-color: red;
+    background-repeat: repeat-x;
+}
+
+#ej2-04 .grad {
+    background: linear-gradient(to right, #0000ff, violet);
+}
+
+#ej2-05 .banner {
+    height: 400px;
+    background-image: url("../img/superlogo.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#ej2-06 .portada {
+    position: relative;
+    background-image: url("../img/superlogo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#ej2-06 .portada::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}

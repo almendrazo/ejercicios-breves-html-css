@@ -1,0 +1,26 @@
+#ej1-01 .intro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#ej1-02 .nota {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#ej1-03 .titulo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#ej1-04 .copi {
+    line-height: 3em;
+}
+
+#ej1-05 .link-falso {
+    text-decoration: underline;
+}
+
+#ej1-06 .texto {
+    font-family: "Open Sans", "Courier New", Courier, monospace;
+}
