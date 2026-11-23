@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 10px;
+}
+
+body {
+    background-color: beige;
+}
+
+.caja {
+    border: 15px solid limegreen;
+    margin-top: 10px;
+    height: 100px;
+    width: 600px;
+}
+
+#ej3-01 .contenedor {
+    background-color: #f0f0f0;
+    color: #900;
+}
+
+#ej3-01 .box {
+    width: 75%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+#ej3-02 .card {
+    text-align: center;
+    font-size: 2em;
+}
+
+#ej3-03 .alto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ej3-04 .fila {
+    display: flex;
+    justify-content: space-around;
+}
+
+span {
+    background-color: yellow;
+}
+
+#ej3-05 .tags {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}   
+
+#ej3-06 .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#ej3-06 img {   
+    width: 50px;
+}   
+
