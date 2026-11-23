@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 10px;
+}
+
+body {
+    background-color: beige;
+}
+
+.caja {
+    border: 15px solid limegreen;
+    margin-top: 10px;
+    height: 100px;
+    width: 600px;
+}
+
+.ancho200 {
+    width: 200px;
+}
+
+#ej4-01 .contenedor {
+    background-color: #f0f0f0;
+    color: #900;
+    position: relative;
+    display: inline-block;
+}
+
+#ej4-01 .novedad {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+#ej4-02 .barra {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: violet;
+    text-align: center;
+    font-size: 3em;
+}
+
+#ej4-03 {
+}
+
+#ej4-03 section {
+    background-color: lightblue;
+}
+
+#ej4-03 h2 {
+    position: sticky;
+    top: 100px;
+    background-color: blue;
+    color: white;
+}
+
+#ej4-04 .fila {
+    display: flex;
+    justify-content: space-around;
+}
+
+span {
+    background-color: yellow;
+}
+
+#ej4-05 .tags {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}   
+
+#ej4-06 .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#ej4-06 img {   
+    width: 50px;
+}   
+
